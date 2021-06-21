@@ -508,6 +508,11 @@ section {
   color: #fff;
 }
 
+.about .section-title {
+  text-align: center;
+  padding-bottom: 0px;
+}
+
 .about .content {
   padding: 30px 30px 30px 0;
 }
@@ -520,7 +525,8 @@ section {
 }
 
 .about .content p {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
 
 .about .content .about-btn {
@@ -542,6 +548,10 @@ section {
 
 .about .icon-boxes .icon-box {
   margin-top: 30px;
+}
+
+.about img {
+  margin-bottom: 20px;
 }
 
 .about .icon-boxes .icon-box i {
@@ -568,8 +578,8 @@ section {
 
 @media (max-width: 768px) {
   .about {
-    text-align: center;
-  }
+    text-align: left;
+    }
 }
 
 /*--------------------------------------------------------------
@@ -683,6 +693,14 @@ section {
   padding-bottom: 80px;
 }
 
+
+.services .member .member-info-content h4 {
+  font-weight: 700;
+  margin-bottom: 2px;
+  font-size: 22px;
+  color: #fff;
+}
+
 .services {
   h3, h4, h5: #fff;
   color: #fff;
@@ -690,6 +708,7 @@ section {
 
 .services .content h4 {
   color: #fff;
+  font-size: 10px;
 }
 
 .services .section-row h4 {
@@ -806,6 +825,10 @@ section {
 .agenda .icon {
   margin-bottom: 15px;
   color: #fff;
+}
+
+.agenda img {
+  margin-bottom: 30px;
 }
 
 .agenda .icon i {
@@ -1142,13 +1165,6 @@ section {
   right: 0;
   bottom: 10px;
   transition: bottom 0.4s;
-  color: #fff;
-}
-
-.team .member .member-info-content h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
   color: #fff;
 }
 
