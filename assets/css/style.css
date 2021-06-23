@@ -386,16 +386,14 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #141d2b;
   width: 60%;
-  color: #576c73;
+  color: #fff;
 }
 
 #hero h2 {
-  color: #a2b7bd;
   margin: 15px 0 0 0;
   font-size: 24px;
-  color: #576c73;
+  color: #fff;
 }
 
 #hero .btn-get-started {
@@ -423,8 +421,12 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+}
 
-
+#bottom {
+  text-align: center;
+  bottom: 0;
+  position: absolute;
 }
 
 @media (max-width: 992px) {
