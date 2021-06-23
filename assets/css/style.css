@@ -374,19 +374,11 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
   border-bottom: 2px solid white;
   text-align: center;
-;
-}
-
-#hero .section {
-  background-image: url("img/hero-img.JPG")
-}
-
-#hero .container {
-  padding-top: 70px;
-  background-image: url("img/hero-img.jpg")
+  background-image: url("assets/img/hero-img.jpg");
+  background-size: cover;
+  height: 800px;
 }
 
 #hero h1 {
@@ -452,7 +444,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 768px) {
   #hero {
-    height: auto;
+    height: 600px;
+  }
+}
+
+@media (max-width: 360px) {
+  #hero {
+    height: 270px;
   }
 }
 
