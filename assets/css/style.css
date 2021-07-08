@@ -376,7 +376,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   border-bottom: 0px solid white;
   text-align: center;
-  background-image: url("assets/img/hero-img.jpg");
+  background-image: url("assets/img/beginfoto.jpg");
   background-size: cover;
   height: 800px;
 }
@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .hero-img {
-  background-image: url("hero-img.JPG"); /* The image used */
+  background-image: url("beginfoto.jpg"); /* The image used */
   background-color: #cccccc; /* Used if the image is unavailable */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
