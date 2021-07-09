@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo {
-  font-size: 30px;
+  font-size: 29px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -426,31 +426,124 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-@media (max-width: 992px) {
+
+@media (max-width: 320px) {
+  #hero {
+    height: 200px;
+  }
+  #hero h2 {
+    font-size: 15px;
+    line-height: 15px;
+  }
   #hero h1 {
-    font-size: 36px;
-    line-height: 42px;
-    width: 100%;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+
+/*--MOTO G4, galaxy S5, iphone 5--*/
+@media (min-width: 321px) and (max-width: 360px) {
+  #hero {
+    height: 230px;
+  }
+  #hero h2 {
+    font-size: 15px;
+  }
+  #hero h1 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
+
+
+/*--iphone 6 7 8 en X--*/
+@media (min-width: 361px) and (max-width: 380px) {
+  #hero {
+    height: 240px;
   }
   #hero h2 {
     font-size: 20px;
     line-height: 20px;
-
   }
-  #hero .hero-img {
-    max-width: 90%;
+  #hero h1 {
+    font-size: 25px;
+    line-height: 30px;
   }
 }
 
-@media (max-height: 768px) {
+/*--IPHONE 678 plus--*/
+@media (min-width: 381px) and (max-width: 414px) {
+  #hero {
+    height: 260px;
+  }
+  #hero h2 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #hero h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+}
+
+/*--surface duo--*/
+@media (min-width: 415px) and (max-width: 540px) {
+  #hero {
+    height: 350px;
+  }
+  #hero h2 {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  #hero h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+/*--IPAD--*/
+@media (min-width: 541px) and (max-width: 768px) {
+  #hero {
+    height: 480px;
+  }
+  #hero h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  #hero h1 {
+    font-size: 50px;
+    line-height: 30px;
+  }
+}
+
+/*--IPAD PRO--*/
+@media (min-width: 769px) and (max-width: 1024px) {
   #hero {
     height: 600px;
   }
+  #hero h2 {
+    font-size: 35px;
+    line-height: 50px;
+  }
+  #hero h1 {
+    font-size: 50px;
+    line-height: 30px;
+  }
 }
 
-@media (max-width: 360px) {
+/*--laptop--*/
+@media (min-width: 1025px) and (max-width: 1500px) {
   #hero {
-    height: 270px;
+    height: 600px;
+  }
+  #hero h2 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #hero h1 {
+    font-size: 40px;
+    line-height: 40px;
   }
 }
 
