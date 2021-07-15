@@ -389,6 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 60%;
   color: #fff;
   vertical-align: bottom;
+  text-shadow: 1px 1px 1px #000000, 2px 2px 8px #000000;
 }
 
 #hero h2 {
@@ -397,6 +398,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: normal;
   vertical-align: bottom;
+  text-shadow: 2px 2px 1px #000000, 2px 2px 8px #000000;
+}
 }
 
 #hero .btn-get-started {
@@ -482,7 +485,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 20px;
   }
   #hero h1 {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 30px;
   }
 }
