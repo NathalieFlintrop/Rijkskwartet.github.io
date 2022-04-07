@@ -884,6 +884,16 @@ section {
   color: #fff;
 }
 
+.agenda a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.agenda a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
 .agenda .content h4 {
   color: #fff;
 }
