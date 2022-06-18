@@ -983,14 +983,14 @@ section {
   margin-bottom: 30px;
 }
 
-.portfolio #portfolio-flters {
+.portfolio media.html-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio media.html-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -1004,12 +1004,12 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio media.html-flters li:hover, .portfolio media.html-flters li.filter-active {
   color: #fff;
   background: #578491;
 }
 
-.portfolio #portfolio-flters li:last-child {
+.portfolio media.html-flters li:last-child {
   margin-right: 0;
 }
 
